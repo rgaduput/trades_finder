@@ -1,1 +1,1 @@
-Simple stock technical pattern finder based on nsetools python lib
+Simple stock candle stick pattern finder based on nsetools python lib

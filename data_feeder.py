@@ -1,3 +1,10 @@
+"""
+Creates a tinydb database with all the data of each script traded on nse exchange on that particular day
+It lets you create scripts history data
+should be run on daily basis after market close
+Later this data will be used in candle stick patterns
+"""
+
 from nsetools import Nse
 from tinydb import TinyDB, Query
 import json
